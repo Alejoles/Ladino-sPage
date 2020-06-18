@@ -21,7 +21,7 @@
                 <a href="#">Nosotros</a>
             </li>
             <li>
-                <a href="/src/HTML/Contact.html">Contactenos</a>
+                <a href="/src/PHP/Contact.php">Contactenos</a>
             </li>
             <li>
                 <a href="/src/HTML/Brands.html">Marcas</a>
@@ -37,6 +37,11 @@
             <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
         
+        <a class="Inicio top" href="/src/HTML/Prueba.html">
+            <div class="Content_nav_in">
+                <h2>Inicio</h2>
+            </div>
+        </a>
         <a class="Nosotros top" href="/src/Servicios.html">
             <div class="Content_nav_in">
                 <h2>Nosotros</h2>
@@ -54,7 +59,7 @@
                 </div>
             </a>
         </div>
-        <a class="Contactenos top"  href="/src/HTML/Contact.html">
+        <a class="Contactenos top"  href="/src/PHP/Contact.php">
             <div class="Content_nav_in">
                 <h2>Contactenos</h2>
             </div>
@@ -64,6 +69,10 @@
                 <h2>Servicios</h2>
             </div>
         </a>
+
+        <div class="ImageContainer">
+            <h1>CONTACTENOS</h1>
+        </div>
         <div class="ContactoPal">
             <h1>Contactenos</h1>
         </div>
