@@ -219,6 +219,11 @@ background-color: #4c903b;
     background: #4c903b;
 }
 
+
+.error{
+    color: tomato;
+    font-size: 14px;
+}
 main{
     grid-row: 19/29;
     grid-column: 6/23;

@@ -1,3 +1,5 @@
+<?php include('contactform.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +10,6 @@
     <link rel="stylesheet" href="Contact.css">
     <script src="https://use.fontawesome.com/e76b9894bd.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="Contact.js" async></script>
     <script src="/src/JS/Main.js" async></script>
 </head>
 <body>
@@ -79,15 +80,16 @@
         <div class="LineCont"></div>
         <main>
             <p>Envíanos un correo</p>
-            <form class="contact-form" action="contactform.php" method="post">
-                <select name="type" id="typeSelect">
-                    <option value="persona" class="opciones">Individuo</option>
-                    <option value="empresa" class="opciones">Empresa</option>
-                </select>
-                <input type="text" name="name" placeholder="Nombre" id="NombreForm">
-                <input type="text" name="mail" placeholder="E-mail">
-                <input type="text" name="subject" placeholder="Asunto">
-                <textarea name="message" placeholder="Brinde una breve descripción de lo que necesita"></textarea>
+            <p class="error">Campos con * son requeridos</p>
+            <form class="contact-form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+                <input value="<?= $name ?>" type="text" name="name" placeholder="* Nombre" id="NombreForm" require><span class="error"><?= $nameErr ?></span>
+                <input value="<?= $empresa ?>" type="text" name="empresa" placeholder="Empresa" id="EmpresaForm" require>
+                <input value="<?= $nit ?>" type="text" name="nit" placeholder="NIT" id="NitForm">
+                <input value="<?= $phone ?>" type="text" name="phone" placeholder="Teléfono">
+                <input value="<?= $mailFrom ?>" type="text" name="mail" placeholder="* E-mail">
+                <span class="error"><?= $mailErr ?></span>
+                <input value="<?= $subject ?>" type="text" name="subject" placeholder="* Asunto"> <span class="error"><?= $subjectErr ?></span>
+                <textarea value="<?= $message ?>" name="message" placeholder="* Brinde una breve descripción de lo que necesita"></textarea> <span class="error"><?= $textErr ?></span>
                 <button type="submit" name="submit">Enviar</button>
             </form>
         </main>
