@@ -237,6 +237,7 @@ main{
 }
 .ListProdsIn{
     display: none;
+    flex-direction: column;
 }
 
 
