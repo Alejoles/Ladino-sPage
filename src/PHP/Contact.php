@@ -48,6 +48,11 @@
                 <h2>Nosotros</h2>
             </div>
         </a>
+        <a class="Prods top" href="/src/HTML/Productos.html">
+            <div class="Content_nav_in">
+                <h2>Productos</h2>
+            </div>
+        </a>
         <a class="Marcas top" href="/src/HTML/Brands.html">
             <div class="Content_nav_in">
                 <h2>Marcas</h2>

@@ -118,30 +118,34 @@ background-color: #4c903b;
 
 .Inicio{
     grid-row: 4/7;
-    grid-column: 4/8;
+    grid-column: 5/8;
 }
 .Nosotros{
     grid-row: 4/7;
-    grid-column: 8/12;
+    grid-column: 8/11;
 }
 .Contactenos{
     grid-row: 4/7;
-    grid-column: 12/17;
+    grid-column: 11/15;
 }
 .Logo_inicio{
     grid-row: 1/4;
     grid-column: 13/16;
 }
+.Prods{
+    grid-row: 4/7;
+    grid-column: 15/18;
+}
 .Marcas{
     grid-row: 4/7;
-    grid-column: 17/21;
+    grid-column: 18/21;
 }
 .Servicios{
     grid-row: 4/7;
-    grid-column: 21/25;
-    background-color: #333333;
+    grid-column: 21/24;
     align-items: center;
     justify-content: center;
+    background-color: #333333;
 }
 .Content_nav_in{
     justify-content: center;
@@ -370,6 +374,12 @@ footer{
 }
 .btn:hover{
     opacity: .7;
+}
+
+@media screen and (max-width:1125px){
+    .top{
+        font-size: 14px;
+    }
 }
 
 
