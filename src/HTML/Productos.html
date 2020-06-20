@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
+    <title>Productos</title>
     <link rel = "icon" href ="/assets/InfoLadino/LogoInecoEdit.png" type = "image/x-icon"> 
     <link rel="stylesheet" href="/src/CSS/ProductosStyle.css">
     <script src="https://use.fontawesome.com/e76b9894bd.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="/src/JS/Productos.js" async></script>
     <script src="/src/JS/Main.js" async></script>
 </head>
 <body>
@@ -35,7 +36,13 @@
         <div class="top_mobile">
             <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
-        
+        <div class="Logo_inicio">
+            <a href="/src/HTML/Prueba.html">
+                <div class="Content_nav_logo">
+                    <img src="/assets/InfoLadino/LogoInecoEdit.png">
+                </div>
+            </a>
+        </div>
         <a class="Inicio top" href="/src/HTML/Prueba.html">
             <div class="Content_nav_in">
                 <h2>Inicio</h2>
@@ -46,26 +53,19 @@
                 <h2>Nosotros</h2>
             </div>
         </a>
-        <a class="Marcas top" href="/src/HTML/Brands.html">
+        <a class="Contactenos top"  href="/src/PHP/Contact.php">
             <div class="Content_nav_in">
-                <h2>Marcas</h2>
+                <h2>Contactenos</h2>
             </div>
         </a>
-        <div class="Logo_inicio">
-            <a href="/src/HTML/Prueba.html">
-                <div class="Content_nav_logo">
-                    <img src="/assets/InfoLadino/LogoInecoEdit.png">
-                </div>
-            </a>
-        </div>
         <a class="Prods top" href="/src/HTML/Productos.html">
             <div class="Content_nav_in">
                 <h2>Productos</h2>
             </div>
         </a>
-        <a class="Contactenos top"  href="/src/PHP/Contact.php">
+        <a class="Marcas top" href="/src/HTML/Brands.html">
             <div class="Content_nav_in">
-                <h2>Contactenos</h2>
+                <h2>Marcas</h2>
             </div>
         </a>
         <a class="Servicios top"  href="/src/Servicios.html">
@@ -75,25 +75,145 @@
         </a>
 
         <div class="ImageContainer">
-            <h1>SERVICIOS</h1>
+            <h1>PRODUCTOS</h1>
         </div>
         <div class="ContactoPal">
-            <h1>Soluciones en ingeniería</h1>
+            <h1>Productos Eléctricos</h1>
         </div>
         <div class="LineCont"></div>
+        
         <main>
-            <p>Envíanos un correo</p>
-            <form class="contact-form" action="contactform.php" method="post">
-                <select name="type" id="typeSelect">
-                    <option value="persona" class="opciones">Individuo</option>
-                    <option value="empresa" class="opciones">Empresa</option>
-                </select>
-                <input type="text" name="name" placeholder="Nombre" id="NombreForm">
-                <input type="text" name="mail" placeholder="E-mail">
-                <input type="text" name="subject" placeholder="Asunto">
-                <textarea name="message" placeholder="Brinde una breve descripción de lo que necesita"></textarea>
-                <button type="submit" name="submit">Enviar</button>
-            </form>
+            <p>Soluciones completas para la industria, empresas de servicio y la construcción.</p>
+            <ul class="ListProds">
+                <li class="ListProdsLi">
+                    <h2>Conductores eléctricos <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Tubería y canalización <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Protección y maniobra BT/MT <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Motores y control de motores <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Productos de terminación <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Distribución de energía <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Materiales clasificados <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Iluminación <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Cableado estructurado <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Fuentes de energía <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Sistemas de protección contrarayos y sobretensiones <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Productos para automatización de edificios <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Productos solares <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Mecanismos <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Domótica <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ListProdsLi">
+                    <h2>Equipos de medición, calibración, certificación y marcación <i class="fa fa-angle-down"></i></h2>
+                    <ul class="ListProdsIn">
+                        <li>
+                            <p>Hola2</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </main>
 
         <footer>

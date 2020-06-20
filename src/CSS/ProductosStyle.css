@@ -223,78 +223,23 @@ background-color: #4c903b;
     background: #4c903b;
 }
 
+
+
 main{
     grid-row: 19/29;
     grid-column: 6/23;
 }
-main p{
-    text-align: center;
+.ListProds{
+    list-style: none;
 }
-.contact-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.contact-form input{
-    margin-bottom: 10px;
-    flex: 1;
-    padding: 18px 40px;
-    font-size: 16px;
-    color: #293043;
-    background: #ddd;
-    border: none;
-    font-weight: 700;
-    outline: none;
-    border-radius: 30px;
-    min-width: 260px;
-    margin-top: 15px;
-    text-align: center;
-}
-.contact-form select{
-    margin-bottom: 10px;
-    flex: 1;
-    padding: 18px 20px;
-    font-size: 16px;
-    color: #293043;
-    background: #ddd;
-    border: none;
-    font-weight: 700;
-    outline: none;
-    border-radius: 30px;
-    min-width: 260px;
-    margin-top: 15px;
-    text-align: center;
-}
-.contact-form textarea{
-    margin-bottom: 10px;
-    flex: 1;
-    padding: 18px 20px;
-    font-size: 16px;
-    color: #293043;
-    background: #ddd;
-    border: none;
-    font-weight: 700;
-    outline: none;
-    border-radius: 30px;
-    min-width: 260px;
-    margin-top: 15px;
-    min-height: 100px;
-    text-align: center;
-}
-.contact-form button{
-    padding: 18px 40px;
-    font-size: 16px;
-    color: #293043;
-    background: #4c903b;
-    border: none;
-    font-weight: 700;
-    outline: none;
-    border-radius: 30px;
+.ListProdsLi{
     cursor: pointer;
-    transition: opacity .3s linear;
-    margin-bottom: 50px;
 }
+.ListProdsIn{
+    display: none;
+}
+
+
 
 footer{
     grid-row: 80/91;
