@@ -231,8 +231,13 @@ main{
 }
 .ListProds{
     list-style: none;
+    padding-left: 20px;
 }
 .ListProdsLi{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ListProdsLi h2{
     cursor: pointer;
 }
 .ListProdsIn{

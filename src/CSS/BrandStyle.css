@@ -136,11 +136,11 @@ background-color: #4c903b;
 .Prods{
     grid-row: 4/7;
     grid-column: 15/18;
-    background-color: #333333;
 }
 .Marcas{
     grid-row: 4/7;
     grid-column: 18/21;
+    background-color: #333333;
 }
 .Servicios{
     grid-row: 4/7;
@@ -207,11 +207,11 @@ background-color: #4c903b;
     color: white;
 }
 
-.Marcas{
+.MarcasText{
     grid-row: 13/16;
     grid-column: 6/23;
 }
-.Marcas h1{
+.MarcasText h1{
     font-family: 'Montserrat', 'sans-serif';
     text-align: center;
     text-transform: uppercase;
