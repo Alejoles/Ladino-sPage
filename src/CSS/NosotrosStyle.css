@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
 html{
     overflow-x: hidden;
@@ -232,8 +232,11 @@ main{
 .CenterDivider{
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(13,50px);
+    grid-template-rows: repeat(19,50px);
     margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    font-size: 16.7px;
 }
 .CenterIn{
     grid-row: 1/7;
@@ -258,10 +261,16 @@ main{
     
 }
 .LeftColIn h2{
-    color: white;
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+.LineLeft{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
 }
 .LeftColIn p{
-    color: white;
+    color: whitesmoke;
 }
 .LeftImage{
     grid-column: 1/5;
@@ -277,17 +286,54 @@ main{
     flex-direction: column;
     padding-left: 10px;
 }
+.LineRightUp{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
 .RightColIn h2{
-    color: white;
+    color: whitesmoke;
+    margin: 10px 0;
+}
+.LineRightDown{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
 }
 .RightColIn p{
-    color: white;
+    color: whitesmoke;
 }
 .RightImage{
     grid-column: 5/9;
     grid-row: 7/14;
     background-image: url(/assets/Body/lab-316553_1280.jpg);
     background-size: cover;
+}
+.BottomIn{
+    grid-column: 3/7;
+    grid-row: 14/20;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.BottomImage{
+    grid-column: 1/9;
+    grid-row: 14/20;
+    background-image: url(/assets/Body/home-office-336377_1920.jpg);
+    background-size: cover;
+}
+.LineBottom{
+    height: 4px;
+    width: 100%;
+    background-color: white;
+}
+.BottomIn h2{
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+.BottomIn p{
+    color: whitesmoke;
 }
 
 
@@ -393,7 +439,7 @@ footer{
 }
 @media screen and (max-width:863px){
     .CenterDivider{
-        grid-template-rows: repeat(14,50px);
+        grid-template-rows: repeat(20,50px);
 
     }
     .CenterIn{
@@ -416,6 +462,12 @@ footer{
         grid-column: 5/9;
         grid-row: 8/15;
 
+    }
+    .BottomIn{
+        grid-row: 15/21;
+    }
+    .BottomImage{
+        grid-row: 15/21;
     }
 
 }
@@ -472,7 +524,7 @@ footer{
 
 
     .CenterDivider{
-        grid-template-rows: repeat(19,50px);
+        grid-template-rows: repeat(25,50px);
     }
     .CenterIn{
         grid-row: 1/8;
@@ -493,6 +545,13 @@ footer{
     .RightImage{
         grid-column: 1/9;
         grid-row: 14/20;
+    }
+    .BottomIn{
+        grid-row: 20/26;
+        grid-column: 2/8;
+    }
+    .BottomImage{
+        grid-row: 20/26;
     }
 
 
@@ -531,7 +590,7 @@ footer{
 
 @media screen and (max-width:681px){
     .CenterDivider{
-        grid-template-rows: repeat(21,50px);
+        grid-template-rows: repeat(27,50px);
     }
     .CenterIn{
         grid-row: 1/10;
@@ -553,11 +612,19 @@ footer{
         grid-column: 1/9;
         grid-row: 16/22;
     }
+    .BottomIn{
+        grid-row: 22/28;
+    }
+    .BottomImage{
+        grid-row: 22/28;
+    }
+
+
 }
 
 @media screen and (max-width:502px){
     .CenterDivider{
-        grid-template-rows: repeat(24,50px);
+        grid-template-rows: repeat(31,50px);
     }
     .CenterIn{
         grid-row: 1/12;
@@ -579,6 +646,12 @@ footer{
         grid-column: 1/9;
         grid-row: 19/25;
     }
+    .BottomIn{
+        grid-row: 25/32;
+    }
+    .BottomImage{
+        grid-row: 25/32;
+    }
 }
 
 @media screen and (max-width:475px){
@@ -597,7 +670,7 @@ footer{
 
 @media screen and (max-width:400px){
     .CenterDivider{
-        grid-template-rows: repeat(27,50px);
+        grid-template-rows: repeat(35,50px);
     }
     .CenterIn{
         grid-row: 1/14;
@@ -619,6 +692,12 @@ footer{
         grid-column: 1/9;
         grid-row: 22/28;
     }
+    .BottomIn{
+        grid-row: 28/36;
+    }
+    .BottomImage{
+        grid-row: 28/36;
+    }
 }
 
 
@@ -634,7 +713,7 @@ footer{
 
 
     .CenterDivider{
-        grid-template-rows: repeat(30,50px);
+        grid-template-rows: repeat(38,50px);
     }
     .CenterIn{
         grid-row: 1/16;
@@ -655,6 +734,12 @@ footer{
     .RightImage{
         grid-column: 1/9;
         grid-row: 25/31;
+    }
+    .BottomIn{
+        grid-row: 31/39;
+    }
+    .BottomImage{
+        grid-row: 31/39;
     }
 
 }
