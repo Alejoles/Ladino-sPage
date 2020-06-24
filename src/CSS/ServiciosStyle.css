@@ -223,78 +223,90 @@ background-color: #4c903b;
     background: #4c903b;
 }
 
+
+
 main{
     grid-row: 19/29;
     grid-column: 6/23;
 }
-main p{
-    text-align: center;
+.CenterDivider{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-auto-rows: minmax(50px,auto);
+    margin-bottom: 20px;
+
 }
-.contact-form{
+.Fullfill{
+    grid-row: 1/17;
+    grid-column: 1/13;
+    background-color: #333333;
+}
+.Merc{
+    border: thin solid black;
     display: flex;
-    flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
-.contact-form input{
-    margin-bottom: 10px;
-    flex: 1;
-    padding: 18px 40px;
-    font-size: 16px;
-    color: #293043;
-    background: #ddd;
-    border: none;
-    font-weight: 700;
-    outline: none;
-    border-radius: 30px;
-    min-width: 260px;
-    margin-top: 15px;
-    text-align: center;
+.Merc h2{
+    position: relative;
+    color: white;
 }
-.contact-form select{
-    margin-bottom: 10px;
-    flex: 1;
-    padding: 18px 20px;
-    font-size: 16px;
-    color: #293043;
-    background: #ddd;
-    border: none;
-    font-weight: 700;
-    outline: none;
-    border-radius: 30px;
-    min-width: 260px;
-    margin-top: 15px;
-    text-align: center;
+.Merc1{
+    grid-row: 1/5;
+    grid-column: 2/7;
+    background-image: url(/assets/Body/pinwheel-4718768_1920.jpg);
+    background-size: cover;
 }
-.contact-form textarea{
-    margin-bottom: 10px;
-    flex: 1;
-    padding: 18px 20px;
-    font-size: 16px;
-    color: #293043;
-    background: #ddd;
-    border: none;
-    font-weight: 700;
-    outline: none;
-    border-radius: 30px;
-    min-width: 260px;
-    margin-top: 15px;
-    min-height: 100px;
-    text-align: center;
+.Merc2{
+    grid-row: 1/5;
+    grid-column: 7/12;
+    background-image: url(/assets/Body/businessman-2682712_1920.jpg);
+    background-size: cover;
 }
-.contact-form button{
-    padding: 18px 40px;
-    font-size: 16px;
-    color: #293043;
-    background: #4c903b;
-    border: none;
-    font-weight: 700;
-    outline: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: opacity .3s linear;
-    margin-bottom: 50px;
+.Merc3{
+    grid-row: 5/9;
+    grid-column: 2/7;
+    background-image: url(/assets/Body/building-768815_1920.jpg);
+    background-size: cover;
 }
+.Merc4{
+    grid-row: 5/9;
+    grid-column: 7/12;
+    background-image: url(/assets/Body/dock-441989_1920.jpg);
+    background-size: cover;
+}
+.Merc5{
+    grid-row: 9/13;
+    grid-column: 2/7;
+    background-image: url(/assets/Body/fan-3645379_1920.jpg);
+    background-size: cover;
+}
+.Merc6{
+    grid-row: 9/13;
+    grid-column: 7/12;
+    background-image: url(/assets/Body/drone-1462463_1920.jpg);
+    background-size: cover;
+}
+.Merc7{
+    grid-row: 13/17;
+    grid-column: 2/7;
+    background-image: url(/assets/Body/conference-room-768441_1920.jpg);
+    background-size: cover;
+}
+.Merc8{
+    grid-row: 13/17;
+    grid-column: 7/12;
+    background-image: url(/assets/Body/digital-marketing-1725340_1920.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
 
 footer{
     grid-row: 80/91;
@@ -443,6 +455,84 @@ footer{
         font-weight: bold;
         font-size: 14px;
     }
+
+
+
+    .CenterDivider{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-auto-rows: minmax(50px,auto);
+        margin-bottom: 20px;
+    
+    }
+    .Fullfill{
+        grid-row: 1/34;
+        grid-column: 1/13;
+        background-color: #333333;
+    }
+    .Merc{
+        border: thin solid black;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .Merc h2{
+        font-size: 18px;
+        position: relative;
+        color: white;
+    }
+    .Merc1{
+        grid-row: 1/5;
+        grid-column: 2/12;
+        background-image: url(/assets/Body/pinwheel-4718768_1920.jpg);
+        background-size: cover;
+    }
+    .Merc2{
+        grid-row: 5/9;
+        grid-column: 2/12;
+        background-image: url(/assets/Body/businessman-2682712_1920.jpg);
+        background-size: cover;
+    }
+    .Merc3{
+        grid-row: 9/13;
+        grid-column: 2/12;
+        background-image: url(/assets/Body/building-768815_1920.jpg);
+        background-size: cover;
+    }
+    .Merc4{
+        grid-row: 13/17;
+        grid-column: 2/12;
+        background-image: url(/assets/Body/dock-441989_1920.jpg);
+        background-size: cover;
+    }
+    .Merc5{
+        grid-row: 17/21;
+        grid-column: 2/12;
+        background-image: url(/assets/Body/fan-3645379_1920.jpg);
+        background-size: cover;
+    }
+    .Merc6{
+        grid-row: 21/25;
+        grid-column: 2/12;
+        background-image: url(/assets/Body/drone-1462463_1920.jpg);
+        background-size: cover;
+    }
+    .Merc7{
+        grid-row: 25/29;
+        grid-column: 2/12;
+        background-image: url(/assets/Body/conference-room-768441_1920.jpg);
+        background-size: cover;
+    }
+    .Merc8{
+        grid-row: 29/34;
+        grid-column: 2/12;
+        background-image: url(/assets/Body/digital-marketing-1725340_1920.jpg);
+        background-size: cover;
+    }
+
+
+
 
     footer{
         padding-top: 0px;
