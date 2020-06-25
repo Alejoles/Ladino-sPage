@@ -302,6 +302,29 @@ main{
 }
 
 
+.ContactoPal2{
+    grid-row: 29/30;
+    grid-column: 6/23
+}
+.ContactoPal2 h1{
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+    text-transform: uppercase;
+}
+.LineCont2{
+    height: 4px;
+    width: 100%;
+    grid-row: 30/31;
+    grid-column: 6/23;
+    background: #4c903b;
+}
+
+
+
+.Main2{
+    grid-row: 31/32;
+    grid-column: 6/23;
+}
 
 
 
