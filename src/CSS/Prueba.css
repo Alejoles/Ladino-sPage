@@ -328,7 +328,7 @@ background-color: #4c903b;
 
 
 footer{
-    grid-row: 80/91;
+    grid-row: 80/92;
     grid-column: 1/28;
     background-color: #f1f1f1;
     box-sizing: border-box;
@@ -580,6 +580,9 @@ footer{
     }
     .Workers{
         display: none;
+    }
+    .Experience{
+        grid-row: 69/75;
     }
 
 }
