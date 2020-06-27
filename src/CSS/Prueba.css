@@ -317,6 +317,12 @@ background-color: #4c903b;
     display: flex;
 }
 
+.Experience{
+    grid-row: 65/71;
+    grid-column: 1/29;
+    background-color: #333333;
+}
+
 
 
 footer{
