@@ -339,6 +339,9 @@ footer{
 .social-icons a:hover i{
     color: #424356;
 }
+.ContactFooter{
+    font-weight: 600;
+}
 
 
 @media screen and (max-width:1125px){

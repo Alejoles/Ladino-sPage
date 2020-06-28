@@ -102,7 +102,7 @@
         <footer>
             <div class="section">
                 <div class="f-logoin">
-                    <a href="#" class="f-logo"><img src="/assets/InfoLadino/LogoInecoEdit.png" alt=""></a>
+                    <a href="/src/HTML/Prueba.html" class="f-logo"><img src="/assets/InfoLadino/LogoInecoEdit.png" alt=""></a>
                     <h2 class="Copy">© All Rights Reserved</h2>
                 </div>
                 <ul>
@@ -119,7 +119,7 @@
                     <li><p><i class="fa fa-phone"></i>+57 3184404617</p></li>
                     <li><p><i class="fa fa-map-marker"></i> Calle 142 #20-71</p></li>
                     <li><p><i class="fa fa-map"></i> Bogotá D.C</p></li>
-                    <li><a href="/src/PHP/Contact.php"><i class="fa fa-envelope"></i> Envíanos un correo</a></li>
+                    <li><a href="/src/PHP/Contact.php" class="ContactFooter"><i class="fa fa-envelope"></i> Envíanos un correo</a></li>
                 </ul>
                 <div class="social">
                     <h1>Social</h1>
