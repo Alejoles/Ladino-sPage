@@ -159,6 +159,10 @@ background-color: #4c903b;
     margin-bottom: auto;
     min-height: 75px;
 }
+.Content_nav_in:hover h2{
+    transform: scale(1.1);
+    transition: ease-in .3s;
+}
 .Content_nav_in h2{
     font-weight: bolder;
     font-size: 150%;
@@ -195,10 +199,10 @@ background-color: #4c903b;
 .ImageContainer{
     grid-row: 7/13;
     grid-column: 1/28;
-    background-image: url(/assets/Body/contact.jpg);
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-size: cover;
+    filter: brightness(95%);
 }
 .ImageContainer h1{
     margin-top: 90px;

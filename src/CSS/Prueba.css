@@ -160,6 +160,10 @@ background-color: #4c903b;
     margin-top: auto;
     margin-bottom: auto;
 }
+.Content_nav_in:hover h2{
+    transform: scale(1.1);
+    transition: ease-in .3s;
+}
 .Content_nav_in h2{
     font-weight: bolder;
     font-size: 150%;
@@ -206,7 +210,9 @@ background-color: #4c903b;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-.swiper-slide .title {
+.swiper-slide .title h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-size: 41px;
     font-weight: 300;
     padding: 40px 60px;
@@ -297,6 +303,11 @@ background-color: #4c903b;
 }
 .EachService p{
     text-align: center;
+    margin: 10px 0;
+}
+.EachService h2{
+    text-align: center;
+    font-size: 16px;
     margin: 10px 0;
 }
 .Workers{
@@ -519,7 +530,7 @@ footer{
         grid-column: 1/28;
         background-color: #364586;
     }
-    .swiper-slide .title {
+    .swiper-slide .title h1{
         font-size: 20px;
     }
     .swiper-slide .subtitle {
@@ -579,7 +590,7 @@ footer{
         grid-column: 1/28;
         background-color: #364586;
     }
-    .swiper-slide .title {
+    .swiper-slide .title h1{
         font-size: 18px;
     }
     .swiper-slide .subtitle {
@@ -616,7 +627,7 @@ footer{
         grid-column: 1/28;
         background-color: #364586;
     }
-    .swiper-slide .title {
+    .swiper-slide .title h1{
         font-size: 16px;
     }
     .swiper-slide .subtitle {

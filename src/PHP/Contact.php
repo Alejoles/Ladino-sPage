@@ -75,10 +75,7 @@
                 <h2>Servicios</h2>
             </div>
         </a>
-
-        <div class="ImageContainer">
-            <h1>CONTACTENOS</h1>
-        </div>
+        <iframe class="ImageContainer" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1988.1313866513478!2d-74.04989424196597!3d4.724356172239971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8541924362e5%3A0x5640eb99ef35c4d3!2sCl.%20142%20%2320-71%2C%20Bogot%C3%A1!5e0!3m2!1sen!2sco!4v1593387002310!5m2!1sen!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <div class="ContactoPal">
             <h1>Contactenos</h1>
         </div>

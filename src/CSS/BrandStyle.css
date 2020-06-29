@@ -160,6 +160,10 @@ background-color: #4c903b;
     margin-bottom: auto;
     min-height: 75px;
 }
+.Content_nav_in:hover h2{
+    transform: scale(1.1);
+    transition: ease-in .3s;
+}
 .Content_nav_in h2{
     font-weight: bolder;
     font-size: 150%;
