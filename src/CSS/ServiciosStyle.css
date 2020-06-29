@@ -397,6 +397,12 @@ background-color: #4c903b;
 }
 #Closeblur{
     cursor: pointer;
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    background: #111;
 }
 .popups{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
