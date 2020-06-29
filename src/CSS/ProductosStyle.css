@@ -237,12 +237,18 @@ main{
     list-style: none;
     padding-left: 20px;
 }
+.ListProds .ListProdsLi h2:hover{
+    transform: translateX(10px);
+    transition: ease-in .2s;
+}
 .ListProdsLi{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .ListProdsLi h2{
     cursor: pointer;
+    width: 600px;
+    transition: ease-in-out .2s;
 }
 .ListProdsIn{
     display: none;
