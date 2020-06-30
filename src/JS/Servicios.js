@@ -85,3 +85,14 @@ function toggles8(){
     var popup = document.getElementById('popup8');
     popup.classList.toggle('changeblur2');
 };
+
+function toggles9(){
+    var nav = document.getElementById('Navbar');
+    var body = document.getElementById('Body');
+    var footer = document.getElementById('Footer');
+    nav.classList.toggle('changeblur');
+    body.classList.toggle('changeblur');
+    footer.classList.toggle('changeblur');
+    var popup = document.getElementById('popup9');
+    popup.classList.toggle('changeblur2');
+};

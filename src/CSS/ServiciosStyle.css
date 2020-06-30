@@ -241,8 +241,8 @@ background-color: #4c903b;
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 50%;
-    padding: 50px;
+    width: 70%;
+    padding: 30px;
     box-shadow: 0 5px 30px rgba(0,0,0,0.30);
     background: #fff;
     visibility: hidden;
@@ -262,7 +262,7 @@ background-color: #4c903b;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0 5px 30px rgba(0,0,0,0.30);
     background: #fff;
     visibility: hidden;
@@ -282,7 +282,7 @@ background-color: #4c903b;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0 5px 30px rgba(0,0,0,0.30);
     background: #fff;
     visibility: hidden;
@@ -302,7 +302,7 @@ background-color: #4c903b;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0 5px 30px rgba(0,0,0,0.30);
     background: #fff;
     visibility: hidden;
@@ -322,7 +322,7 @@ background-color: #4c903b;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0 5px 30px rgba(0,0,0,0.30);
     background: #fff;
     visibility: hidden;
@@ -342,7 +342,7 @@ background-color: #4c903b;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0 5px 30px rgba(0,0,0,0.30);
     background: #fff;
     visibility: hidden;
@@ -362,7 +362,7 @@ background-color: #4c903b;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0 5px 30px rgba(0,0,0,0.30);
     background: #fff;
     visibility: hidden;
@@ -382,7 +382,7 @@ background-color: #4c903b;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0 5px 30px rgba(0,0,0,0.30);
     background: #fff;
     visibility: hidden;
@@ -390,6 +390,25 @@ background-color: #4c903b;
     transition: .5s;
 }
 #popup8.changeblur2{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: .5s;
+}
+#popup9{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    padding: 30px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+#popup9.changeblur2{
     top: 50%;
     visibility: visible;
     opacity: 1;
@@ -407,7 +426,9 @@ background-color: #4c903b;
 .popups{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.popups ul li h3{
+    font-size: 16px;
+}
 
 
 main{
@@ -422,7 +443,7 @@ main{
     box-shadow: 3px 5px 20px rgba(0,0,0,0.7);
 }
 .Fullfill{
-    grid-row: 1/17;
+    grid-row: 1/21;
     grid-column: 1/13;
     background-color: #333333;
 }
@@ -491,6 +512,13 @@ main{
     background-image: url(/assets/Body/digital-marketing-1725340_1920.jpg);
     background-size: cover;
 }
+.Merc9{
+    grid-row: 17/21;
+    grid-column: 2/12;
+    background-image: url(/assets/Body/regulation-3246979_1280.jpg);
+    background-size: cover;
+}
+
 
 
 .ContactoPal2{
@@ -685,6 +713,12 @@ footer{
         letter-spacing: 3px;
         font-weight: bold;
         font-size: 14px;
+    }
+
+
+
+    #popup1{
+        width: 90%;
     }
 
 
