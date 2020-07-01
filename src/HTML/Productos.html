@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>Productos2</title>
     <link rel = "icon" href ="/assets/InfoLadino/LogoInecoEdit.png" type = "image/x-icon"> 
-    <link rel="stylesheet" href="/src/CSS/ProductosStyle.css">
+    <link rel="stylesheet" href="/src/CSS/Productos.css">
     <script src="https://use.fontawesome.com/e76b9894bd.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="/src/JS/Productos.js" async></script>
     <script src="/src/JS/Main.js" async></script>
+    <script src="/src/JS/Productos.js" async></script>
 </head>
 <body>
-    <div class="navcont">
+    <div class="navcont" id="Navbar">
         <ul class="nav-links" id="NavNeeds">
             <li>
                 <a href="/src/HTML/Prueba.html">Inicio</a>
@@ -39,13 +39,7 @@
         <div class="top_mobile">
             <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
-        <div class="Logo_inicio">
-            <a href="/src/HTML/Prueba.html">
-                <div class="Content_nav_logo">
-                    <img src="/assets/InfoLadino/LogoInecoEdit.png">
-                </div>
-            </a>
-        </div>
+        
         <a class="Inicio top" href="/src/HTML/Prueba.html">
             <div class="Content_nav_in">
                 <h2>Inicio</h2>
@@ -54,11 +48,6 @@
         <a class="Nosotros top" href="/src/HTML/Nosotros.html">
             <div class="Content_nav_in">
                 <h2>Nosotros</h2>
-            </div>
-        </a>
-        <a class="Contactenos top"  href="/src/PHP/Contact.php">
-            <div class="Content_nav_in">
-                <h2>Contactenos</h2>
             </div>
         </a>
         <a class="Prods top" href="/src/HTML/Productos.html">
@@ -71,6 +60,18 @@
                 <h2>Marcas</h2>
             </div>
         </a>
+        <div class="Logo_inicio">
+            <a href="/src/HTML/Prueba.html">
+                <div class="Content_nav_logo">
+                    <img src="/assets/InfoLadino/LogoInecoEdit.png">
+                </div>
+            </a>
+        </div>
+        <a class="Contactenos top"  href="/src/PHP/Contact.php">
+            <div class="Content_nav_in">
+                <h2>Contactenos</h2>
+            </div>
+        </a>
         <a class="Servicios top"  href="/src/HTML/Servicios.html">
             <div class="Content_nav_in">
                 <h2>Servicios</h2>
@@ -81,448 +82,65 @@
             <h1>PRODUCTOS</h1>
         </div>
         <div class="ContactoPal">
-            <h1>Productos Eléctricos</h1>
+            <h1>Nuestros Productos</h1>
         </div>
         <div class="LineCont"></div>
-        
+        <p class="Paldown">Soluciones completas para la industria, empresas de servicio y la construcción.</p>
         <main>
-            <p>Soluciones completas para la industria, empresas de servicio y la construcción.</p>
-            <ul class="ListProds">
-                <li class="ListProdsLi">
-                    <h2>Conductores eléctricos <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Cable THHN-THWN - Cobre</p>
-                        </li>
-                        <li>
-                            <p>Cable THHN S.8000 Aluminio</p>
-                        </li>
-                        <li>
-                            <p>Cables Ed Desnudos en Cobre</p>
-                        </li>
-                        <li>
-                            <p>Cable Superflex</p>
-                        </li>
-                        <li>
-                            <p>Cables MT XLPE 15 Kv - 35 Kv</p>
-                        </li>
-                        <li>
-                            <p>Cables Encauchetados</p>
-                        </li>
-                        <li>
-                            <p>Cables Soldador y Bateria</p>
-                        </li>
-                        <li>
-                            <p>Cable LSZH Cobre - Aluminio</p>
-                        </li>
-                        <li>
-                            <p>Cables Duplex Coaxial, Telef.</p>
-                        </li>
-                        <li>
-                            <p>BLINDOBARRAS</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Tubería y canalización <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Tubos PVC Conduit</p>
-                        </li>
-                        <li>
-                            <p>Tubo Ducto PVC EB - DB - TDP.</p>
-                        </li>
-                        <li>
-                            <p>Accesorios PVC Caias.</p>
-                        </li>
-                        <li>
-                            <p>Tubería Metálica EMT</p>
-                        </li>
-                        <li>
-                            <p>Tubería Galvanizada IMC.</p>
-                        </li>
-                        <li>
-                            <p>Tubería Galvanizada IMG Rigid.</p>
-                        </li>
-                        <li>
-                            <p>Accesorios EMT - IMC.</p>
-                        </li>
-                        <li>
-                            <p>Bandeja Metálica Portacable</p>
-                        </li>
-                        <li>
-                            <p>Bandeja Tipo Malla Cablofil</p>
-                        </li>
-                        <li>
-                            <p>Acces. Ductos y Bandejas</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Protección y maniobra BT/MT <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Breaker Industriales y residenciales</p>
-                        </li>
-                        <li>
-                            <p>Conductores, Reles, Arrancadores</p>
-                        </li>
-                        <li>
-                            <p>Condensadores</p>
-                        </li>
-                        <li>
-                            <p>Arrancadores directos y Suaves</p>
-                        </li>
-                        <li>
-                            <p>Pilotos Señalización - Selectores</p>
-                        </li>
-                        <li>
-                            <p>Transferencias Automáticas</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Motores y control de motores <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Motortes Trifásico - Monofasicos</p>
-                        </li>
-                        <li>
-                            <p>Ventiladores Axiales Industriales</p>
-                        </li>
-                        <li>
-                            <p>Variadores Electronicos de Velocidad</p>
-                        </li>
-                        <li>
-                            <p>Arrancadores Suaves</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Productos de terminación <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Barrages Baja Tensión</p>
-                        </li>
-                        <li>
-                            <p>Bornas y Conectores Resorte</p>
-                        </li>
-                        <li>
-                            <p>Conectores Puesta a Tierra</p>
-                        </li>
-                        <li>
-                            <p>Terminales 15 Kv y 35 Kv</p>
-                        </li>
-                        <li>
-                            <p>Empalmes 15 Kv y 35 Kv</p>
-                        </li>
-                        <li>
-                            <p>Empalme Baja T. 600 Volt</p>
-                        </li>
-                        <li>
-                            <p>Cintas Aislantes</p>
-                        </li>
-                        <li>
-                            <p>Conectores Antifraude</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Distribución de energía <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Celda Triplex de EYs / Protección</p>
-                        </li>
-                        <li>
-                            <p>Celdas para Grupo de medida BT</p>
-                        </li>
-                        <li>
-                            <p>Celda de Medida en MT</p>
-                        </li>
-                        <li>
-                            <p>Armarios para Medidores</p>
-                        </li>
-                        <li>
-                            <p>Celda de MT sYStem-6 SF6</p>
-                        </li>
-                        <li>
-                            <p>Tableros Monof. Bifas, Trifásico</p>
-                        </li>
-                        <li>
-                            <p>Cajas de Paso Normal y Especial</p>
-                        </li>
-                        <li>
-                            <p>Tablero General de Distribución</p>
-                        </li>
-                        <li>
-                            <p>Tablero General de Acometidas</p>
-                        </li>
-                        <li>
-                            <p>Banco de Condensadores</p>
-                        </li>
-                        <li>
-                            <p>Centro de Control de Motores</p>
-                        </li>
-                        <li>
-                            <p>Tablero con Automatismos PLC</p>
-                        </li>
-                        <li>
-                            <p>Tablero de Transf. Motorizadas</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Materiales clasificados <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Sellos Corta Fuegos</p>
-                        </li>
-                        <li>
-                            <p>Cajas a Prueba de Explosión</p>
-                        </li>
-                        <li>
-                            <p>Productos y Accesorios Nema 7; Nema 9; Nema 4X.</p>
-                        </li>
-                        <li>
-                            <p>Conduletas Nema 7-9.</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Iluminación <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Luminarias LED Interiores</p>
-                        </li>
-                        <li>
-                            <p>Reflectores LED Exteriores</p>
-                        </li>
-                        <li>
-                            <p>Bombillos y Tubos LED</p>
-                        </li>
-                        <li>
-                            <p>Luminaria de Emergencia LED</p>
-                        </li>
-                        <li>
-                            <p>Luminarias LED de A.P</p>
-                        </li>
-                        <li>
-                            <p>Luminarias Deportivas</p>
-                        </li>
-                        <li>
-                            <p>Luminarias Decorativas</p>
-                        </li>
-                        <li>
-                            <p>Luminaria Campana Industrial</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Cableado estructurado <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Cable UTP Cat. 6 - 6A - 7</p>
-                        </li>
-                        <li>
-                            <p>Patch Panel</p>
-                        </li>
-                        <li>
-                            <p>Patch Cord</p>
-                        </li>
-                        <li>
-                            <p>Jacks, Face Place</p>
-                        </li>
-                        <li>
-                            <p>Racks de Piso - Pared, Multitomas, Organizadores</p>
-                        </li>
-                        <li>
-                            <p>Fibra Óptica</p>
-                        </li>
-                        <li>
-                            <p>Canaleta Metálica - Plástica y Accesorios</p>
-                        </li>
-                        <li>
-                            <p>Elementos de Marcación</p>
-                        </li>
-                        <li>
-                            <p>Networking - Switches</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Fuentes de energía <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Transformadores convencional distribución Tp Poste en Aceite</p>
-                        </li>
-                        <li>
-                            <p>Transformadores secos clase H</p>
-                        </li>
-                        <li>
-                            <p>Transformadores tipo Pedestal</p>
-                        </li>
-                        <li>
-                            <p>Cajas de Maniobra</p>
-                        </li>
-                        <li>
-                            <p>Transformadores de Corriente</p>
-                        </li>
-                        <li>
-                            <p>Transformadores de Medida en MT</p>
-                        </li>
-                        <li>
-                            <p>Transformadores Trifásicos y Monofasicos en Baja Tensión</p>
-                        </li>
-                        <li>
-                            <p>Reguladores de Inductancia</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Sistemas de protección contrarayos y sobretensiones <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Protecciones contra Rayos</p>
-                        </li>
-                        <li>
-                            <p>Materiales de Apantallamiento</p>
-                        </li>
-                        <li>
-                            <p>Sistemas de Puestas a Tierra</p>
-                        </li>
-                        <li>
-                            <p>DPS Sistemas de Protección contra sobretensiones</p>
-                        </li>
-                        <li>
-                            <p>Sistemas de Captación</p>
-                        </li>
-                        <li>
-                            <p>Sistemas de derivación</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Productos para automatización de edificios <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Seguridad Electrónica</p>
-                        </li>
-                        <li>
-                            <p>Sistema de Intrusión Alarmas</p>
-                        </li>
-                        <li>
-                            <p>Sistema de CCTV</p>
-                        </li>
-                        <li>
-                            <p>Sistemas de Sonido</p>
-                        </li>
-                        <li>
-                            <p>Control de Acceso</p>
-                        </li>
-                        <li>
-                            <p>Sistemas de Citofonía</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Productos solares <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Paneles Solares Fotovoltaicos Policristalinos</p>
-                        </li>
-                        <li>
-                            <p>Reguladores</p>
-                        </li>
-                        <li>
-                            <p>Baterías Gel / Ciclo Profundo</p>
-                        </li>
-                        <li>
-                            <p>Inversor Solar Off-Grid</p>
-                        </li>
-                        <li>
-                            <p>Inversor Solar On-Grid</p>
-                        </li>
-                        <li>
-                            <p>Calentadores Solares</p>
-                        </li>
-                        <li>
-                            <p>Bombas Solares</p>
-                        </li>
-                        <li>
-                            <p>Luminarias Solares Luz LED</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Mecanismos <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Tomacorrientes e Interruptores Residenciales e Industriales</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Domótica <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Dimmers</p>
-                        </li>
-                        <li>
-                            <p>Sensores de Movimiento</p>
-                        </li>
-                        <li>
-                            <p>Control de Iluminación Parqueaderos</p>
-                        </li>
-                        <li>
-                            <p>Control de Iluminación Salones y Zonas Comunes</p>
-                        </li>
-                        <li>
-                            <p>Control de Iluminación Hogar</p>
-                        </li>
-                        <li>
-                            <p>Control de Cortinas</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="ListProdsLi">
-                    <h2>Equipos de medición, calibración, certificación y marcación <i class="fa fa-angle-down"></i></h2>
-                    <ul class="ListProdsIn">
-                        <li>
-                            <p>Equipos Certificadores</p>
-                        </li>
-                        <li>
-                            <p>Equipos de Diagnósticos</p>
-                        </li>
-                        <li>
-                            <p>Probadores</p>
-                        </li>
-                        <li>
-                            <p>Medidores de Tierra</p>
-                        </li>
-                        <li>
-                            <p>Medidores de Energía</p>
-                        </li>
-                        <li>
-                            <p>Cámara Termográfica</p>
-                        </li>
-                        <li>
-                            <p>Kit para Conexión de Fibra Óptica</p>
-                        </li>
-                        <li>
-                            <p>Buscador de Circuito</p>
-                        </li>
-                        <li>
-                            <p>Trazadores de Circuito</p>
-                        </li>
-                        <li>
-                            <p>Pinza Voltiamperimétrica</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="CenterDivider">
+                <div class="Fullfill"></div>
+                <div onclick="toggles()" class="Merc1 Merc" id="Merc1">
+                    <h2>Conductores Eléctricos</h2>
+                </div>
+                <div onclick="toggles2()" class="Merc2 Merc" id="Merc2">
+                    <h2>Tubería y Canalización</h2>
+                </div>
+                <div onclick="toggles3()" class="Merc3 Merc" id="Merc3">
+                    <h2>Protección y Maniobra BT/MT</h2>
+                </div>
+                <div onclick="toggles4()" class="Merc4 Merc" id="Merc4">
+                    <h2>Motores y Control de Motores</h2>
+                </div>
+                <div onclick="toggles5()" class="Merc5 Merc" id="Merc5">
+                    <h2>Productos de Terminación</h2>
+                </div>
+                <div onclick="toggles6()" class="Merc6 Merc" id="Merc6">
+                    <h2>Distribución de Energía</h2>
+                </div>
+                <div onclick="toggles7()" class="Merc7 Merc" id="Merc7">
+                    <h2>Materiales Clasificados</h2>
+                </div>
+                <div onclick="toggles8()" class="Merc8 Merc" id="Merc8">
+                    <h2>Iluminación</h2>
+                </div>
+                <div onclick="toggles9()" class="Merc9 Merc" id="Merc9">
+                    <h2>Cableado estructurado</h2>
+                </div>
+                <div onclick="toggles10()" class="Merc10 Merc" id="Merc9">
+                    <h2>Fuentes de Energía</h2>
+                </div>
+                <div onclick="toggles11()" class="Merc11 Merc" id="Merc9">
+                    <h2>Sistemas de Protección Contrarayos y Sobretensiones</h2>
+                </div>
+                <div onclick="toggles12()" class="Merc12 Merc" id="Merc9">
+                    <h2>Productos para Automatización de Edificios</h2>
+                </div>
+                <div onclick="toggles13()" class="Merc13 Merc" id="Merc9">
+                    <h2>Productos Solares</h2>
+                </div>
+                <div onclick="toggles14()" class="Merc14 Merc" id="Merc9">
+                    <h2>Mecanismos</h2>
+                </div>
+                <div onclick="toggles15()" class="Merc15 Merc" id="Merc9">
+                    <h2>Domótica</h2>
+                </div>
+                <div onclick="toggles16()" class="Merc16 Merc" id="Merc9">
+                    <h2>Equipos de Medición, Calibración, Certificación y Marcación</h2>
+                </div>
+            </div>
         </main>
 
-        <footer>
+        <footer id="Footer">
             <div class="section">
                 <div class="f-logoin">
                     <a href="/src/HTML/Prueba.html" class="f-logo"><img src="/assets/InfoLadino/LogoInecoEdit.png" alt=""></a>
@@ -555,9 +173,458 @@
                 
             </div>
         </footer>
-    </div>    
+    </div>
+    <div id="popup1" class="popups">
+        <h2>Conductores Eléctricos</h2>
+            <ul class="ListProdsIn">
+                <li>
+                    <p>Cable THHN-THWN - Cobre</p>
+                </li>
+                <li>
+                    <p>Cable THHN S.8000 Aluminio</p>
+                </li>
+                <li>
+                    <p>Cables Ed Desnudos en Cobre</p>
+                </li>
+                <li>
+                    <p>Cable Superflex</p>
+                </li>
+                <li>
+                    <p>Cables MT XLPE 15 Kv - 35 Kv</p>
+                </li>
+                <li>
+                    <p>Cables Encauchetados</p>
+                </li>
+                <li>
+                    <p>Cables Soldador y Bateria</p>
+                </li>
+                <li>
+                    <p>Cable LSZH Cobre - Aluminio</p>
+                </li>
+                <li>
+                    <p>Cables Duplex Coaxial, Telef.</p>
+                </li>
+                <li>
+                    <p>BLINDOBARRAS</p>
+                </li>
+            </ul>
+        <div onclick="toggles()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup2" class="popups">
+        <h2>Tuberías y Canalización</h2>
+            <ul class="ListProdsIn">
+                <li>
+                    <p>Tubos PVC Conduit</p>
+                </li>
+                <li>
+                    <p>Tubo Ducto PVC EB - DB - TDP.</p>
+                </li>
+                <li>
+                    <p>Accesorios PVC Caias.</p>
+                </li>
+                <li>
+                    <p>Tubería Metálica EMT</p>
+                </li>
+                <li>
+                    <p>Tubería Galvanizada IMC.</p>
+                </li>
+                <li>
+                    <p>Tubería Galvanizada IMG Rigid.</p>
+                </li>
+                <li>
+                    <p>Accesorios EMT - IMC.</p>
+                </li>
+                <li>
+                    <p>Bandeja Metálica Portacable</p>
+                </li>
+                <li>
+                    <p>Bandeja Tipo Malla Cablofil</p>
+                </li>
+                <li>
+                    <p>Acces. Ductos y Bandejas</p>
+                </li>
+            </ul>
+        <div onclick="toggles2()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup3" class="popups">
+        <h2>Protección y Maniobra BT/MT</h2>
+            <ul class="ListProdsIn">
+                <li>
+                    <p>Breaker Industriales y residenciales</p>
+                </li>
+                <li>
+                    <p>Conductores, Reles, Arrancadores</p>
+                </li>
+                <li>
+                    <p>Condensadores</p>
+                </li>
+                <li>
+                    <p>Arrancadores directos y Suaves</p>
+                </li>
+                <li>
+                    <p>Pilotos Señalización - Selectores</p>
+                </li>
+                <li>
+                    <p>Transferencias Automáticas</p>
+                </li>
+            </ul>
+        <div onclick="toggles3()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup4" class="popups">
+        <h2>Motores y Control de Motores</h2>
+            <ul class="ListProdsIn">
+                <li>
+                    <p>Motores Trifásicos - Monofasicos</p>
+                </li>
+                <li>
+                    <p>Ventiladores Axiales Industriales</p>
+                </li>
+                <li>
+                    <p>Variadores Electronicos de Velocidad</p>
+                </li>
+                <li>
+                    <p>Arrancadores Suaves</p>
+                </li>
+            </ul>
+        <div onclick="toggles4()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup5" class="popups">
+        <h2>Productos de Terminación</h2>
+            <ul class="ListProdsIn">
+                <li>
+                    <p>Barrages Baja Tensión</p>
+                </li>
+                <li>
+                    <p>Bornas y Conectores Resorte</p>
+                </li>
+                <li>
+                    <p>Conectores Puesta a Tierra</p>
+                </li>
+                <li>
+                    <p>Terminales 15 Kv y 35 Kv</p>
+                </li>
+                <li>
+                    <p>Empalmes 15 Kv y 35 Kv</p>
+                </li>
+                <li>
+                    <p>Empalme Baja T. 600 Volt</p>
+                </li>
+                <li>
+                    <p>Cintas Aislantes</p>
+                </li>
+                <li>
+                    <p>Conectores Antifraude</p>
+                </li>
+            </ul>
+        <div onclick="toggles5()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup6" class="popups">
+        <h2>Distribución de Energía</h2>
+            <ul class="ListProdsIn">
+                <li>
+                    <p>Celda Triplex de EYs / Protección</p>
+                </li>
+                <li>
+                    <p>Celdas para Grupo de medida BT</p>
+                </li>
+                <li>
+                    <p>Celda de Medida en MT</p>
+                </li>
+                <li>
+                    <p>Armarios para Medidores</p>
+                </li>
+                <li>
+                    <p>Celda de MT sYStem-6 SF6</p>
+                </li>
+                <li>
+                    <p>Tableros Monof. Bifas, Trifásico</p>
+                </li>
+                <li>
+                    <p>Cajas de Paso Normal y Especial</p>
+                </li>
+                <li>
+                    <p>Tablero General de Distribución</p>
+                </li>
+                <li>
+                    <p>Tablero General de Acometidas</p>
+                </li>
+                <li>
+                    <p>Banco de Condensadores</p>
+                </li>
+                <li>
+                    <p>Centro de Control de Motores</p>
+                </li>
+                <li>
+                    <p>Tablero con Automatismos PLC</p>
+                </li>
+                <li>
+                    <p>Tablero de Transf. Motorizadas</p>
+                </li>
+            </ul>
+        <div onclick="toggles6()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup7" class="popups">
+        <h2>Materiales Clasificados</h2>
+            <ul class="ListProdsIn">
+                <li>
+                    <p>Sellos Corta Fuegos</p>
+                </li>
+                <li>
+                    <p>Cajas a Prueba de Explosión</p>
+                </li>
+                <li>
+                    <p>Productos y Accesorios Nema 7; Nema 9; Nema 4X.</p>
+                </li>
+                <li>
+                    <p>Conduletas Nema 7-9.</p>
+                </li>
+            </ul>
+        <div onclick="toggles7()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup8" class="popups">
+        <h2>Iluminación</h2>
+        <ul class="ListProdsIn">
+            <li>
+                <p>Luminarias LED Interiores</p>
+            </li>
+            <li>
+                <p>Reflectores LED Exteriores</p>
+            </li>
+            <li>
+                <p>Bombillos y Tubos LED</p>
+            </li>
+            <li>
+                <p>Luminaria de Emergencia LED</p>
+            </li>
+            <li>
+                <p>Luminarias LED de A.P</p>
+            </li>
+            <li>
+                <p>Luminarias Deportivas</p>
+            </li>
+            <li>
+                <p>Luminarias Decorativas</p>
+            </li>
+            <li>
+                <p>Luminaria Campana Industrial</p>
+            </li>
+        </ul>
+        <div onclick="toggles8()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup9" class="popups">
+        <h2>Cableado Estructurado</h2>
+        <ul class="ListProdsIn">
+            <li>
+                <p>Cable UTP Cat. 6 - 6A - 7</p>
+            </li>
+            <li>
+                <p>Patch Panel</p>
+            </li>
+            <li>
+                <p>Patch Cord</p>
+            </li>
+            <li>
+                <p>Jacks, Face Place</p>
+            </li>
+            <li>
+                <p>Racks de Piso - Pared, Multitomas, Organizadores</p>
+            </li>
+            <li>
+                <p>Fibra Óptica</p>
+            </li>
+            <li>
+                <p>Canaleta Metálica - Plástica y Accesorios</p>
+            </li>
+            <li>
+                <p>Elementos de Marcación</p>
+            </li>
+            <li>
+                <p>Networking - Switches</p>
+            </li>
+        </ul>
+        <div onclick="toggles9()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup10" class="popups">
+        <h2>Fuentes de Energía</h2>
+        <ul class="ListProdsIn">
+            <li>
+                <p>Transformadores convencional distribución Tp Poste en Aceite</p>
+            </li>
+            <li>
+                <p>Transformadores secos clase H</p>
+            </li>
+            <li>
+                <p>Transformadores tipo Pedestal</p>
+            </li>
+            <li>
+                <p>Cajas de Maniobra</p>
+            </li>
+            <li>
+                <p>Transformadores de Corriente</p>
+            </li>
+            <li>
+                <p>Transformadores de Medida en MT</p>
+            </li>
+            <li>
+                <p>Transformadores Trifásicos y Monofasicos en Baja Tensión</p>
+            </li>
+            <li>
+                <p>Reguladores de Inductancia</p>
+            </li>
+        </ul>
+        <div onclick="toggles10()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup11" class="popups">
+        <h2>Sistemas de Protección Contrarayos y Sobretensiones</h2>
+        <ul class="ListProdsIn">
+            <li>
+                <p>Protecciones contra Rayos</p>
+            </li>
+            <li>
+                <p>Materiales de Apantallamiento</p>
+            </li>
+            <li>
+                <p>Sistemas de Puestas a Tierra</p>
+            </li>
+            <li>
+                <p>DPS Sistemas de Protección contra sobretensiones</p>
+            </li>
+            <li>
+                <p>Sistemas de Captación</p>
+            </li>
+            <li>
+                <p>Sistemas de derivación</p>
+            </li>
+        </ul>
+        <div onclick="toggles11()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup12" class="popups">
+        <h2>Productos para automatización de edificios</h2>
+        <ul class="ListProdsIn">
+            <li>
+                <p>Seguridad Electrónica</p>
+            </li>
+            <li>
+                <p>Sistema de Intrusión Alarmas</p>
+            </li>
+            <li>
+                <p>Sistema de CCTV</p>
+            </li>
+            <li>
+                <p>Sistemas de Sonido</p>
+            </li>
+            <li>
+                <p>Control de Acceso</p>
+            </li>
+            <li>
+                <p>Sistemas de Citofonía</p>
+            </li>
+        </ul>
+        <div onclick="toggles12()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup13" class="popups">
+        <h2>Productos solares</h2>
+        <ul class="ListProdsIn">
+            <li>
+                <p>Paneles Solares Fotovoltaicos Policristalinos</p>
+            </li>
+            <li>
+                <p>Reguladores</p>
+            </li>
+            <li>
+                <p>Baterías Gel / Ciclo Profundo</p>
+            </li>
+            <li>
+                <p>Inversor Solar Off-Grid</p>
+            </li>
+            <li>
+                <p>Inversor Solar On-Grid</p>
+            </li>
+            <li>
+                <p>Calentadores Solares</p>
+            </li>
+            <li>
+                <p>Bombas Solares</p>
+            </li>
+            <li>
+                <p>Luminarias Solares Luz LED</p>
+            </li>
+        </ul>
+        <div onclick="toggles13()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup14" class="popups">
+        <h2>Mecanismos</h2>
+        <ul class="ListProdsIn">
+            <li>
+                <p>Tomacorrientes e Interruptores Residenciales e Industriales</p>
+            </li>
+        </ul>
+        <div onclick="toggles14()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup15" class="popups">
+        <h2>Domótica</h2>
+        <ul class="ListProdsIn">
+            <li>
+                <p>Dimmers</p>
+            </li>
+            <li>
+                <p>Sensores de Movimiento</p>
+            </li>
+            <li>
+                <p>Control de Iluminación Parqueaderos</p>
+            </li>
+            <li>
+                <p>Control de Iluminación Salones y Zonas Comunes</p>
+            </li>
+            <li>
+                <p>Control de Iluminación Hogar</p>
+            </li>
+            <li>
+                <p>Control de Cortinas</p>
+            </li>
+        </ul>
+        <div onclick="toggles15()" id="Closeblur">Cerrar</div>
+    </div>
+    <div id="popup16" class="popups">
+        <h2>Equipos de Medición, Calibración, Certificación y Marcación</h2>
+        <ul class="ListProdsIn">
+            <li>
+                <p>Equipos Certificadores</p>
+            </li>
+            <li>
+                <p>Equipos de Diagnósticos</p>
+            </li>
+            <li>
+                <p>Probadores</p>
+            </li>
+            <li>
+                <p>Medidores de Tierra</p>
+            </li>
+            <li>
+                <p>Medidores de Energía</p>
+            </li>
+            <li>
+                <p>Cámara Termográfica</p>
+            </li>
+            <li>
+                <p>Kit para Conexión de Fibra Óptica</p>
+            </li>
+            <li>
+                <p>Buscador de Circuito</p>
+            </li>
+            <li>
+                <p>Trazadores de Circuito</p>
+            </li>
+            <li>
+                <p>Pinza Voltiamperimétrica</p>
+            </li>
+        </ul>
+        <div onclick="toggles16()" id="Closeblur">Cerrar</div>
+    </div>
+
 </body>
 <script>
     document.getElementById('Body').style.overflow = 'hidden';
+
 </script>
 </html>
