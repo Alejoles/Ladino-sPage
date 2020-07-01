@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 
 
 html{
@@ -92,7 +95,7 @@ body{
 .Body{
     font-family: 'Roboto', sans-serif;
     display: grid;
-    grid-template-rows: repeat(90,25px);
+    grid-template-rows: repeat(109,25px);
     grid-template-columns: repeat(27,1fr)
 }
 .top{
@@ -198,6 +201,16 @@ background-color: #fac227;
 background-color: #364586;
 background-color: #4c903b;
 */
+
+#Slide2 .title h1{
+    padding: 40px 80px;
+}
+#Slide3 .title{
+    padding-left: 200px;
+}
+#Slide3 .title h1{
+    padding-top: 20px;
+}
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -211,21 +224,23 @@ background-color: #4c903b;
     box-sizing: border-box;
 }
 .swiper-slide .title h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-size: 41px;
     font-weight: 300;
     padding: 40px 60px;
 }
-.swiper-slide .subtitle {
+.swiper-slide .subtitle h2{
+    font-family: 'Montserrat', sans-serif;
     font-size: 21px;
-    padding: 40px 60px;
+    padding: 20px 60px;
 }
-.swiper-slide .text {
-    font-size: 14px;
-    max-width: 400px;
+.swiper-slide .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    max-width: 500px;
     line-height: 1.3;
-    padding: 40px 60px;
+    padding: 10px 60px;
 }
 .swiper-slide img{
     height: 100%;
@@ -300,6 +315,11 @@ background-color: #4c903b;
 }
 .EachService img{
     width: 50%;
+    transition: ease-in-out .3s;
+}
+.EachService img:hover{
+    transform: scale(1.1);
+    transition: ease-in .2s;
 }
 .EachService p{
     text-align: center;
@@ -320,21 +340,115 @@ background-color: #4c903b;
     padding: 0px;
     grid-row: 10/13;
     grid-column: 1/13;
-    background: #333333;
+    background: #252525;
     height: 100%;
     display: flex;
 }
 
 .Experience{
-    grid-row: 65/71;
+    grid-row: 65/99;
     grid-column: 1/29;
-    background-color: #333333;
+    background-color: #252525;
+}
+.MainText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-row: 67/70;
+    grid-column: 6/23;
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.MainText h1{
+    margin: 0;
+    text-transform: uppercase;
+}
+.LineMainText{
+    background-color: whitesmoke;
+    margin-top: 5px;
+    grid-row: 70/71;
+    height: 5px;
+    width: 100%;
+    grid-column: 4/25;
+}
+.Mercados{
+    grid-row: 71/118;
+    grid-column: 3/26;
+}
+.MercadosIn{
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: repeat(2,250px);
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    grid-row-gap: 60px;
+}
+.EachMercado{
+    display: grid;
+    grid-template-rows: repeat(10,25px);
+    grid-template-columns: repeat(1,1fr);
+}
+.MercImg{
+    grid-row: 1/9;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    transition: linear .15s;
+}
+.MercImg:hover{
+    transform: scale(1.1);
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) .2s;
+}
+#Img1{
+    background-image: url(/assets/Body/pinwheel-4718768_1920.jpg);
+    background-size: cover;
+}
+#Img2{
+    background-image: url(/assets/Body/businessman-2682712_1920.jpg);
+    background-size: cover;
+}
+#Img3{
+    background-image: url(/assets/Body/building-768815_1920.jpg);
+    background-size: cover;
+}
+#Img4{
+    background-image: url(/assets/Body/dock-441989_1920.jpg);
+    background-size: cover;
+}
+#Img5{
+    background-image: url(/assets/Body/fan-3645379_1920.jpg);
+    background-size: cover;
+}
+#Img6{
+    background-image: url(/assets/Body/drone-1462463_1920.jpg);
+    background-size: cover;
+}
+#Img7{
+    background-image: url(/assets/Body/conference-room-768441_1920.jpg);
+    background-size: cover;
+}
+#Img8{
+    background-image: url(/assets/Body/digital-marketing-1725340_1920.jpg);
+    background-size: cover;
+}
+.MercText{
+    grid-row: 9/11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MercText h2{
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin: 0;
 }
 
 
 
+
+
+
 footer{
-    grid-row: 80/92;
+    grid-row: 99/111;
     grid-column: 1/28;
     background-color: #f1f1f1;
     box-sizing: border-box;
@@ -472,8 +586,8 @@ footer{
     .Body{
         font-family: 'Roboto', sans-serif;
         display: grid;
-        grid-template-rows: repeat(95,25px);
-        grid-template-columns: repeat(27,1fr)
+        grid-template-rows: repeat(150,25px);
+        grid-template-columns: repeat(27,1fr);
     }
     .top{
         display: none;
@@ -534,13 +648,16 @@ footer{
         font-size: 20px;
     }
     .swiper-slide .subtitle {
-
+        font-size: 18px;
     }
     .swiper-slide .text {
-
+        font-size: 18px;
     }
 
-
+    .ContentCenter{
+        grid-row: 31/61;
+        grid-column: 3/26;
+    }
     .Center{
         grid-template-columns: repeat(4,1fr);
         grid-column: 1/10;
@@ -554,14 +671,40 @@ footer{
         position: relative;
     }
 
-
-
+    .Experience{
+        grid-row: 61/95;
+        grid-column: 1/29;
+        background-color: #252525;
+    }
+    .MainText{
+        grid-row: 63/66;
+        grid-column: 6/23;
+        font-size: 12px;
+    }
+    .LineMainText{
+        grid-row: 66/67;
+    }
+    .Mercados{
+        grid-row: 67/114;
+        grid-column: 3/26;
+    }
+    .MercText h2{
+        font-size: 18px;
+    }
+    .Experience{
+        grid-row: 61/125;
+        grid-column: 1/28;
+    }
+    .MercadosIn{
+        grid-template-rows: repeat(2,250px);
+        grid-template-columns: repeat(2,1fr);
+    }
 
 
 
     footer{
         padding-top: 0px;
-        grid-row: 80/101;
+        grid-row: 125/152;
         grid-column: 1/28;
     }
     .section{
@@ -575,6 +718,20 @@ footer{
 @media screen and (max-width:500px){
     .Workers{
         display: none;
+    }
+    .Body{
+        grid-template-rows: repeat(195,25px);
+    }
+    .Experience{
+        grid-row: 61/170;
+    }
+    .MercadosIn{
+        grid-template-rows: repeat(2,250px);
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer{
+        grid-row: 170/197;
+        grid-column: 1/28;
     }
 }
 
@@ -594,12 +751,24 @@ footer{
         font-size: 18px;
     }
     .swiper-slide .subtitle {
-
+        font-size: 16px;
     }
     .swiper-slide .text {
-
+        font-size: 14px;
     }
-    
+    .CenterDown{
+        display: none;
+    }
+    .ContentCenter{
+        grid-row: 27/57;
+        grid-column: 3/26;
+    }
+    .MainText{
+        font-size: 10px;
+    }
+    #Slide3{
+        padding-left: 0px;
+    }
 }
 
 @media screen and (max-width:420px){
@@ -608,9 +777,6 @@ footer{
         grid-column: 1/13;
     }
 
-    .Experience{
-        grid-row: 69/75;
-    }
 
 }
 
@@ -631,10 +797,10 @@ footer{
         font-size: 16px;
     }
     .swiper-slide .subtitle {
-
+        font-size: 14px;
     }
-    .swiper-slide .text {
-
+    .swiper-slide .text p{
+        font-size: 12px;
     }
     
 }

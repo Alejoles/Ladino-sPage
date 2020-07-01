@@ -316,6 +316,11 @@ main{
 .ContactInside a{
     text-decoration: none;
     color: seagreen;
+    transition: ease-in-out .4s;
+}
+.ContactInside a:hover{
+    color: tomato;
+    transition: ease-in .4s;
 }
 
 
