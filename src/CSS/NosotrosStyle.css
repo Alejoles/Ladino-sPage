@@ -250,6 +250,7 @@ main{
     flex-direction: column;
 }
 .CenterIn p{
+    max-width: 1200px;
     position: relative;
     margin-top: 0px;
     margin-bottom: 10px;
