@@ -102,6 +102,56 @@ body{
 background-color: #364586;
 background-color: #4c903b;
 */
+
+
+.TextTop{
+    grid-row: 1/4;
+    grid-column: 2/9;
+    display: flex;
+    align-items: center;
+}
+.TextTop h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.RedesSocialesTop{
+    grid-row: 1/4;
+    grid-column: 20/27;
+    display: flex;
+    align-items: center;
+}
+.RedesSocialesTopIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RedesSocialesTopIn p{
+    margin: 10px 10px;
+}
+.RedSocial{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+    background-color: #364586;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RedSocial:hover{
+    background-color: whitesmoke;
+}
+.RedSocial:hover i{
+    color: #364586;
+}
+.RedSocial i{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
 .top:hover{
     background-color: #333333;
 }
@@ -348,14 +398,16 @@ footer{
     color: #111;
 }
 .f-logo{
-    color: #fff;
+    color: rgb(110, 110, 110);
     font-family: bebas kai;
-    letter-spacing: 2px;
     padding: 5px 10px;
-    font-size: 25px;
+    font-size: 9px;
     text-decoration: none;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
 }
 .f-logo img{
     width: 150px;
@@ -420,6 +472,13 @@ footer{
 .ContactFooter{
     font-weight: 600;
 }
+.section ul li a:hover{
+    font-weight: 600;
+}
+
+
+
+
 
 
 @media screen and (max-width:1125px){
@@ -442,6 +501,13 @@ footer{
 }
 
 @media screen and (max-width:768px){
+    .TextTop{
+        display: none;
+    }
+    .RedesSocialesTop{
+        display: none;
+        grid-column: 18/27;
+    }
     body{
         overflow-x: hidden !important;
     }

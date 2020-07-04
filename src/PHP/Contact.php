@@ -33,6 +33,15 @@
         </ul>
     </div>
     <div class="Body" id="Body">
+    <div class="TextTop"><h2>Eléctricos de Colombia</h2></div>
+        <div class="RedesSocialesTop">
+            <div class="RedesSocialesTopIn">
+                <p id="Elim768">Conéctate:</p>
+                <a href="#" class="RedSocial"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="RedSocial"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="RedSocial"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
         <div class="alltop"></div>
         <div class="top_mobile">
             <i class="fa fa-bars" aria-hidden="true"></i>
@@ -99,7 +108,7 @@
         <footer>
             <div class="section">
                 <div class="f-logoin">
-                    <a href="/src/HTML/Prueba.html" class="f-logo"><img src="/assets/InfoLadino/LogoInecoEdit.png" alt=""></a>
+                    <a href="/src/HTML/Prueba.html" class="f-logo"><img src="/assets/InfoLadino/LogoInecoEdit.png" alt="">ELÉCTRICOS DE COLOMBIA LTDA</a>
                     <h2 class="Copy">© All Rights Reserved</h2>
                 </div>
                 <ul>
