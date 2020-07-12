@@ -109,7 +109,7 @@
             <div class="section">
                 <div class="f-logoin">
                     <a href="/src/HTML/Prueba.html" class="f-logo"><img src="/assets/InfoLadino/LogoInecoEdit.png" alt="">ELÉCTRICOS DE COLOMBIA LTDA</a>
-                    <h2 class="Copy">© All Rights Reserved</h2>
+                    <h2 class="Copy">2020 © INECO LTDA Todos los derechos reservados</h2>
                 </div>
                 <ul>
                     <h1>Links</h1>
