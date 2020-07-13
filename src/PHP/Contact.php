@@ -33,7 +33,7 @@
         </ul>
     </div>
     <div class="Body" id="Body">
-    <div class="TextTop"><h2>Eléctricos de Colombia</h2></div>
+    <div class="TextTop"><h2>INECO LTDA <br> Soluciones Eléctricas</h2></div>
         <div class="RedesSocialesTop">
             <div class="RedesSocialesTopIn">
                 <p id="Elim768">Conéctate:</p>
